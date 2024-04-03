@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Vaughan Baloyi</h1>
-<h3 align="center">a passionate software developer with a constant hunger for learning and improving my skills. I thrive in dynamic environments where I can collaborate with teams to create innovative solutions.</h3>
+<h3 align="center">a passionate junior software developer with a constant hunger for learning and improving my skills. I thrive in dynamic environments where I can collaborate with teams to create innovative solutions.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vaughan23&label=Profile%20views&color=0e75b6&style=flat" alt="vaughan23" /> </p>
 
