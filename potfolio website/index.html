@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+     <nav id="desktop-nav"> 
+         <div class="logo">RECKS</div>
+         <div>
+<ul class="nav-links">
+    <li><a href="#about">About</a></li> 
+    <li><a href="#experince">Experince</a></li>
+    <li><a href="#projects">Projects</a></li> 
+    <li><a href="#contact">Contact</a></li>
+<!-- </ul> -->
+         </div>
+     </nav>
+
+     <nav id="hamburger-nav">
+        <div class="logo">RECKS</div> 
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+
+<div class="menu-links">
+    <li><a href="#about onclick="togglemenu()">About</a></li> 
+    <li><a href="#experince onclick="togglemenu()">Experince</a></li>
+    <li><a href="#projects onclick="togglemenu()">Projects</a></li> 
+    <li><a href="#contact onclick="togglemenu()">Contact</a></li>
+
+</div>
+        </div>
+     </nav>
+
+     <section di="profile">
+<div class="section__pic-container">
+    <img src="./Assests/IMG_0626-photoaidcom-cropped.jpeg" alt="Recks profile picture"/>
+</div>
+
+<div class="section__text">
+    <p class="__text__p1">Hello i'm</p>
+    <h1 class="title">Recks</h1>
+    <p class="section__text__p2">Frontend Developer</p>
+    <div class="btn-container"></div>
+    <button class="btn btn-color-2" onclick="window.open('.')">Download CV</button>
+    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+</div>
+
+<div id="socials-container">
+
+<img src="./Assests/linkedin.png" alt="my linkedin profile" class="icon" 
+onclick="location. href='https: //linkedin.com/'">
+
+
+<img src="./Assests/github.png" alt="my linkedin profile" class="icon" 
+onclick="location. href='https: //github.com/'">
+
+
+</div>
+
+
+</div>
+     </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
