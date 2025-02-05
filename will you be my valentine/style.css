@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.teddy-bear img {
+  width: 200px;
+  height: auto;
+}
+
+.question p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #fff;
+}
+
+button {
+  background-color: #ff66b2;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #ff3385;
+}
+
+#sweet-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+#no-button {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* Add hearts scattered on the background */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: repeat;
+  background-size: 50px 50px; /* Small hearts */
+  z-index: 1;
+}
